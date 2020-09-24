@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Fernando Rodriguez">
+        <meta name="discrption" content="Basic Form Layout">
+
+        <meta property="og:image" content="Favacon.png">
+        <meta property="FavaCon" content="Chems with code">
+        <meta property="A picture of Chems with Code writen" content="Future FavaCon">
+        <link rel="shortcut icon" href="Favacon.png" type="image/x-icon">
+        <style>
+            Body {
+                background-color: darkgray;
+
+        }
+            fieldset {
+                background-color: #88a7ca;
+                
+        }
+
+            legend {
+                background-color: rgb(29, 27, 27);
+                color: white;
+                
+                
+        }
+
+            input {
+                Margin: 5px;
+        }
+        </style>
+        
+        <title>Basic Form Layout</title>
+    </head>
+    <body>
+        <h1>Pizza Intructions</h1>
+        <fieldset>
+            <legend>User Information</legend>
+                <form>
+                
+                <p>
+                    <ul>
+                        <li><lable for="UserName">UserName</lable>
+                        <input type="text" id="UserName" name="user.username"></li>
+        
+                        <li><lable for="password">Password</lable>
+                        <input type="password" id="password" name="user.password"></li>
+                    </ul>
+                </p>
+                </form>
+        </fieldset>
+
+        <fieldset>
+            <legend> What drink do you want?</legend>
+            <form>
+            <p>
+                <ul>
+                    <li><label for="coke">
+                        <input type="radio" id="coke" name="user.drink">
+                        Coke
+                    </label></li>
+                    <li><label for="Diet Coke">
+                        <input type="radio" id="Diet Coke" name="user.drink">
+                        Diet Coke
+                    </label></li>
+                    <li><label for="Sprite">
+                        <input type="radio" id="Sprite" name="user.drink">
+                        Sprite
+                    </label></li>
+                    <li><label for="Water">
+                        <input type="radio" id="Water" name="user.drink">
+                        Water
+                    </label></li>   
+                </ul>
+            </p>
+        </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pizza Prefrence</legend>
+                <form>
+                    <p>
+                        <ul>
+                            <li><label for="plain">
+                                <input type="checkbox" id="plain" name="user.plain">
+                                Plain
+                            </label></li>
+
+                            <li><label for="pepperone">
+                                <input type="checkbox" id="pepperone" name="user.pepperone">
+                                Pepperone
+                            </label></li>
+
+                            <li><label for="chicken">
+                                <input type="checkbox" id="chicken" name="user.chicken">
+                                Chicken
+                            </label></li>
+                            
+                            <li><label for="sausage">
+                                <input type="checkbox" id="sausage" name="user.sausage">
+                                Sausage
+                            </label></li>
+
+                        </ul>
+                    </p>
+                </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Intructions</legend>
+                <form>
+                    <p>
+                        <ul>
+                            <li><label for="SpecialIntructions">Special Intructions</label><br>
+                            <textarea name="user.SpecialIntructions" id="SpecialIntructions" cols="30" rows="10"></textarea><br></li>
+
+                        </ul>
+
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+        </fieldset>
+
+    </body>
+</html>
