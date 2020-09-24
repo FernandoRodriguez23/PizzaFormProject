@@ -34,12 +34,10 @@
         <title>Basic Form Layout</title>
     </head>
     <body>
+        <form action="" method="Post">
         <h1>Pizza Intructions</h1>
         <fieldset>
             <legend>User Information</legend>
-                <form>
-                
-                <p>
                     <ul>
                         <li><lable for="UserName">UserName</lable>
                         <input type="text" id="UserName" name="user.username"></li>
@@ -47,14 +45,10 @@
                         <li><lable for="password">Password</lable>
                         <input type="password" id="password" name="user.password"></li>
                     </ul>
-                </p>
-                </form>
         </fieldset>
 
         <fieldset>
             <legend> What drink do you want?</legend>
-            <form>
-            <p>
                 <ul>
                     <li><label for="coke">
                         <input type="radio" id="coke" name="user.drink">
@@ -73,14 +67,10 @@
                         Water
                     </label></li>   
                 </ul>
-            </p>
-        </form>
         </fieldset>
 
         <fieldset>
             <legend>Pizza Prefrence</legend>
-                <form>
-                    <p>
                         <ul>
                             <li><label for="plain">
                                 <input type="checkbox" id="plain" name="user.plain">
@@ -101,26 +91,18 @@
                                 <input type="checkbox" id="sausage" name="user.sausage">
                                 Sausage
                             </label></li>
-
                         </ul>
-                    </p>
-                </form>
         </fieldset>
 
         <fieldset>
             <legend>Special Intructions</legend>
                 <form>
-                    <p>
                         <ul>
                             <li><label for="SpecialIntructions">Special Intructions</label><br>
                             <textarea name="user.SpecialIntructions" id="SpecialIntructions" cols="30" rows="10"></textarea><br></li>
-
                         </ul>
-
                         <button type="submit">Submit</button>
-                    </p>
-                </form>
         </fieldset>
-
+        </form>
     </body>
 </html>
